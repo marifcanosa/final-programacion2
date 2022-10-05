@@ -1,0 +1,763 @@
+@media screen and (max-width: 992px) {
+    #logo {
+        margin-top: 15px;
+    }
+    .navbar {
+        width: 100%;
+        max-width: 992px;
+        z-index: 2;
+    }
+    .navbar-nav {
+        background-color: seagreen;
+    }
+    .navbar-toggler {
+        margin-bottom: 0 !important;
+        margin-top: -80px !important;
+    }
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+}
+
+h3 {
+    margin: 5px 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#logo {
+    height: 50px;
+    width: 125px;
+    background: url(../imgs/logo.png) no-repeat center;
+    margin-left: 20px;
+    margin-right: auto;
+    text-indent: -1000px;
+}
+
+#social a {
+    background: url('../imgs/redes.png') left top no-repeat;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    text-indent: -5000px;
+}
+
+#social li {
+    display: inline-block;
+}
+
+#social {
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 250px;
+}
+
+#social #facebook{ background-position: 0px 0px; }
+#social #instagram{ background-position: -48px 0px; }
+#social #whatsapp{ background-position: -96px 0px; }
+
+footer {
+    padding: 50px 0;
+}
+
+footer p {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 350px;
+}
+
+.navbar-toggler  {
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+
+.cerrar-sesion {
+    margin-top: 12px;
+}
+
+/* Pantalla Home */
+
+section {
+    padding: 30px 0;
+}
+
+#imagen-principal {
+    height: 500px;
+    background-image: url("../imgs/inicio.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#principal {
+    font-size: 1.1rem;
+    padding-bottom: 30px;
+}
+
+.fondo-titulo {
+    background-color: #4ac98e;
+    padding: 10px;
+    margin: 30px auto;
+    max-width: 400px;
+}
+
+#categoria {
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-bottom: 70px;
+}
+
+#categoria img {
+     border-radius: 100%;
+}
+
+#categoria div {
+    margin: 40px auto;
+}
+
+#categoria img:hover {
+    opacity: 0.7;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+
+.categoria {
+    position: relative;
+}
+
+.titulo-categoria {
+    position:absolute;
+    top:60px;
+    left:10px;
+    padding:10px;
+    margin:0;
+}
+
+#bienvenido {
+    padding: 25px;
+    margin: 30px auto;
+}
+
+.navbar {
+    padding: 0;
+    margin: 0;
+    height: 85px;
+    background-color: seagreen !important;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    padding-left: 0 !important;
+}
+
+.navbar-collapse {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    color: white !important;
+    padding-left: 0 !important;
+    font-family: Trebuchet MS;
+}
+
+.nav-link:hover {
+    color: #287d39 !important;
+}
+
+.card {
+    border: none;
+    color: black;
+    margin-top: 15px;
+}
+
+.imgs {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#ubicacion {
+    padding: 30px 0;
+}
+
+#ubicacion p {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+}
+
+#novedades {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-bottom: 70px;
+}
+
+#novedades img {
+    width: 18rem;
+}
+
+#novedades img:hover {
+    opacity: 0.8;
+}
+
+#novedades li {
+    list-style: none;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#blog {
+    text-align: center;
+    font-size: 1.4rem;
+    background: url("../imgs/ecovision2.jpg") no-repeat center;
+    background-size: cover;
+    color: white;
+    padding: 130px 0;
+}
+
+#blog button a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    max-width: 200px;
+    font-size: 1.2rem;
+}
+
+/* Pantalla Blog */
+
+.blog-texto {
+    margin: auto;
+    padding: 0 40px;
+}
+
+#nosotros p {
+    font-size: 1.3rem;
+}
+
+#nosotros {
+    margin: 30px auto;
+    text-align: center;
+}
+
+#mision-vision {
+    margin: 20px auto;
+}
+
+#mision-vision p {
+    font-size: 1.2rem;
+}
+
+.titulo-2 {
+    background-color: #62d09e;
+    max-width: 180px;
+    padding: 10px;
+    margin: 15px auto;
+}
+
+#categorias {
+    margin-left: -30px;
+}
+
+#categorias ul {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 25px auto;
+}
+
+#categorias ul a {
+    list-style: none;
+    width: 125px;
+    margin: 10px auto;
+    font-size: 1.1rem;
+    background-color: #4ac98e;
+    padding: 8px 3px;
+}
+/* Pantalla Productos */
+
+#productosTodos {
+    margin-left: 3vh;
+}
+
+.productos .row > * {
+    padding: 0 !important;
+}
+
+.productos {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+.productos h1 {
+    text-align: start !important;
+}
+
+.productos p:first-of-type {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.productos .card {
+    margin-left: 0;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    border: 1px solid #003216bc;
+}
+
+.productos .card p {
+    text-align: end;
+}
+
+#barra-producto .nav-link{
+    font-size: 1.2rem;
+    margin: 0 10px;
+    color: black !important;
+}
+
+#barra-producto .nav-link:hover {
+    color: #287d39 !important;
+}
+
+
+.productos a {
+    color: black;
+    text-decoration: none;
+}
+
+.productos a:hover {
+    color: #1f5f2c;
+    opacity: 0.8;
+}
+
+.mensajes {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px 15px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.productos form {
+    margin: auto;
+}
+
+#resultado {
+    margin-bottom: 20px;
+}
+
+#buscar-boton {
+    margin-top: auto;
+    margin-left: auto;
+}
+
+#buscar-boton button {
+    padding: 8px 15px;
+}
+
+#resultado div {
+    margin-left: 0;
+    margin-right: 20px;
+}
+/* Pantalla Producto */
+
+#producto {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding-top: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#productos img {
+    margin: 8px auto;
+}
+
+#producto h1 {
+    font-size: 1.8rem;
+}
+
+#boton-iniciar {
+    font-size: 1.2rem;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#atras {
+    text-indent: -5000px;
+    width: 70px;
+    height: 70px;
+    background: url(../imgs/atras.png) no-repeat;
+    margin-left: auto;
+}
+
+/* Pantalla Contacto */
+
+.form-control {
+    border: 1px solid black;
+}
+
+#contacto {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+form div:last-of-type {
+    text-align: right;
+}
+
+#contacto button {
+    width: 150px;
+    font-size: 1.1rem;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#contacto p {
+    text-align: center;
+}
+
+#contacto label {
+    text-align: center;
+    padding: 5px 0;
+}
+
+.modal-header {
+    height: 70px;
+}
+
+#contacto .modal-body {
+    color: #000000;
+}
+
+input, textarea {
+    border-style:double;
+    border-color: #0b2f1b;
+    border-width: 2px;
+}
+
+.btn-primary {
+    background-color: #00853c;
+    border-color: #005b2a;
+}
+
+.btn-primary:hover {
+    background-color: #009c46;
+    border-color: #005b2a;
+}
+
+#contacto {
+    background: url("../imgs/ecoform.jpg") no-repeat center center;
+    background-size: cover;
+    height: 750px;
+    color: white;
+}
+
+#contacto div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#contacto form {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+}
+
+form > div {
+    padding: 0 20px;
+}
+
+/* Pantalla 404 */
+
+#error {
+    background-color: #0b2f1b;
+    color: white;
+    padding: 70px 0;
+}
+
+#error a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #74ffb3;
+}
+
+#error a:hover {
+    color: #24c16a;
+}
+/* Pantalla Login */
+
+#ingresar {
+    margin-top: 20px;
+    margin-left: 80%;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#login {
+    padding-top:40px;
+    padding-bottom: 50px;
+}
+
+
+#login form {
+    max-width: 550px;
+    margin: auto;
+}
+/* Pantalla Editar */
+#editar form {
+    max-width: 500px;
+    text-align: start;
+    margin: auto;
+}
+
+#editar img {
+    width: 15rem;
+    text-align: end;
+}
+
+#editar input {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#editar label, #editar p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#editar textarea {
+    height: 100px;
+}
+
+#editar button {
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+/* Pantalla Eliminar */
+#eliminar {
+    max-width: 900px;
+}
+
+#eliminar dl {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+}
+
+#eliminar form {
+    max-width: 500px;
+    text-align: end;
+}
+
+/* Pantalla Agregar */
+#agregar label {
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: start;
+}
+
+#agregar input, #agregar textarea {
+    max-width: 600px;
+}
+
+#agregar form {
+    max-width: 700px;
+    margin: auto;
+}
+
+#agregar div {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#agregar .alert-danger {
+    max-width: 600px;
+}
+
+#agregar button {
+    margin-top: 20px;
+    padding: 8px 25px;
+}
+
+/* Pantalla Registro */
+
+#registro p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#registro form {
+    max-width: 550px;
+    margin: auto;
+}
+
+#registro form div:last-of-type {
+    text-align: start;
+}
+
+#registro button {
+    font-size: 1.1rem;
+    max-width: 200px;
+    margin-top: 20px;
+    margin-left: 75%;
+}
+
+/* Pantalla Carrito */
+
+#total {
+    text-align: end;
+    font-size: 1.4rem;
+}
+
+#vaciar {
+    text-align: end;
+}
+
+/* Pantalla Perfil */
+
+#datos {
+    max-width: 450px;
+    margin: auto;
+    font-size: 1.2rem;
+}
+
+#perfil {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+#perfil a {
+    text-decoration: none;
+    background-color: #1ea264;
+    pointer-events: visible;
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+}
+
+#perfil a:hover {
+    background-color: #2ec981;
+}
+
+/* Pantalla Checkout */
+
+#checkout form {
+    font-size: 1.2rem;
+}
+
+#checkout p {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+#checkout form div {
+    text-align: start;
+}
+
+#envio {
+    display: none;
+}
+
+#resumen {
+    padding-top: 30px;
+}
+
+#resumen ul li {
+    list-style: square;
+}
+
+#resumen p {
+    text-align: end;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+#checkout h2 {
+    text-align: start;
+    margin: 20px 0;
+}
+
+#finalizar {
+    margin-top: 30px;
+}
+
+#finalizar button {
+    width: 250px;
+}
+
+/* Paginador */
+
+.paginador {
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    max-width: 550px;
+}
+
+.paginador a {
+    text-decoration: none;
+    color: black;
+    margin-left: auto;
+}
+
+.paginador-lista {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.paginador-lista li {;
+    list-style: none;
+    margin: 0 20px;
+}

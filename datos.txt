@@ -1,0 +1,11 @@
+Nombre: Marianela.
+Apellido: Fernandes Canosa.
+Carrera: Diseño y Programación Web.
+Cuatrimestre: 3ro.
+Turno: Mañana.
+Comisión: A.
+Año: 2022.
+Docente: Santiago Gallino.
+Carácter de entrega: Final.
+Usuario Administrador: mari@gmail.com. Contraseña: abc
+Usuario Común: pedro@gmail.com Contraseña: hola 
